@@ -40,10 +40,10 @@
 //     frame:          As usual.
 //     gradientColors: Array of colors to create the background gradient. It can be any number of
 //                     UIColor objects, although less colors generate better results. If a single
-//                     color is used, the progress bar will be drawn with no gradient. If 'nil' is
+//                     color is used, the progress view will be drawn with no gradient. If 'nil' is
 //                     passed, a standard red to yellow to green gradient is generated automatically.
-//     outsideBorder:  Sets if the progress bar has (YES) or not (NO) a border.
-//     vertical:       Sets if the progress bar is vertical (YES) or horizontal (NO).
+//     outsideBorder:  Sets if the progress view has (YES) or not (NO) a border.
+//     vertical:       Sets if the progress view is vertical (YES) or horizontal (NO).
 //
 - (id)initWithFrame:(CGRect)frame
   andGradientColors:(NSArray *)gradientColors
